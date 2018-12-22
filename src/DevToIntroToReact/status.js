@@ -1,4 +1,6 @@
 import React from "react";
+import Comment from "./comment";
+import Like from "./like";
 
 export default class Status extends React.Component {
   render() {
@@ -11,14 +13,16 @@ export default class Status extends React.Component {
                 <div className="row">
                   <a href="#">The Zen of Programming</a>
                 </div>
-                <div class="row">
+                <div className="row">
                   <small className="post-time">10 mins</small>
                 </div>
               </div>
             </div>
+            <Like />
           </div>
-          <p>Hello world!</p>
-          <div className="card-footer text-muted" />
+          <div className="card-footer text-muted">
+            <Comment name="specialCommentName" />
+          </div>
         </div>
       </div>
     );
