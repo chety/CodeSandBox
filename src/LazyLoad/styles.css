@@ -1,0 +1,17 @@
+.post-container {
+  background-color: gray;
+}
+.post {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;
+}
+.post-body {
+  background-color: #eee;
+  margin: auto;
+}
+
+.post-img {
+  margin: auto;
+}
